@@ -12,6 +12,7 @@
 ## Table of Contents ##
 
 - [About](#about)
+- [Screenshot](#screen)
 - [Repository structure](#repo)
 - [Installation](#installation)
     - [Vim Plug](#vimplug)
@@ -35,6 +36,10 @@ dontuse.nvim/
 └── README.md
 ```
 ***
+
+## Screenshot <a name="screen"> </a> ##
+![dontuse](https://github.com/user-attachments/assets/d68580d4-37fc-4363-8fb8-a246581e5a71)
+
 
 ##  Installation :star: <a name="installation"></a> ##
 You can easly install this with your plugin manager, although I recommend to not use it at all, therefore the name dontuse.nvim
