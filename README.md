@@ -18,12 +18,11 @@
     - [Packer](#packer)
 
 ## About <a name="about"><a/> :information_source:  ##
-My attempt of creating colorscheme for Neovim, since I didn't like most of them out there. This one is based on aura, one that I acctually like.
+My attempt of creating colorscheme for Neovim, since I didn't like most of them out there. This one is based on aura, one that I acctually liked.
 
 ## Repository structure :open_file_folder: <a name="repo"><a/> ##
 
 ```bash
-
 dontuse.nvim/
 ├── colors
 │   └── dontuse.vim         # .vim for legacy configs based on vimscript
@@ -50,11 +49,9 @@ Plug 'jkeresman01/dontuse.nvim'
 ```lua
   use 'jkeresman01/dontuse.nvim'
 ```
-***
 
 Afterwards you can set colorscheme with:
 ```lua
   vim.cmd('colorscheme dontuse')
 ```
-***
 
