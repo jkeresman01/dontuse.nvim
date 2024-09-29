@@ -1,14 +1,14 @@
 local M = {}
 
-function M.GuiFor(group, bg, fg, attr)
+function M.GuiFor(group, background, foreground, attr)
   local cmd = 'hi ' .. group .. ' ctermfg=NONE ctermbg=NONE cterm=NONE '
 
-  if bg and #bg > 0 then
-    cmd = cmd .. 'guibg=' .. bg .. ' '
+  if background and #background > 0 then
+    cmd = cmd .. 'guibg=' .. background .. ' '
   end
 
-  if fg and #fg > 0 then
-    cmd = cmd .. 'guifg=' .. fg .. ' '
+  if foreground and #foreground > 0 then
+    cmd = cmd .. 'guifg=' .. foreground .. ' '
   end
 
   if attr and #attr > 0 then
