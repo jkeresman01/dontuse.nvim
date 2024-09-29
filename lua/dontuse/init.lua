@@ -91,7 +91,7 @@ util.GuiFor('StatusLineNC', '', '', 'reverse')
 
 
 -------------------------------------------------------------------
-------------------- [ Errors and Warnings ]  ---------------------
+------------------- [ Errors and Warnings ]  ----------------------
 -------------------------------------------------------------------
 util.GuiFor('Error', 'NONE', palette.red)
 util.GuiFor('ErrorMsg', 'NONE', palette.red)
