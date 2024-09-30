@@ -52,11 +52,11 @@ Plug 'jkeresman01/dontuse.nvim'
 #### Packer <a name="packer"></a> ####
 
 ```lua
-  use 'jkeresman01/dontuse.nvim'
+use 'jkeresman01/dontuse.nvim'
 ```
 
 Afterwards you can set colorscheme with:
 ```lua
-  vim.cmd('colorscheme dontuse')
+vim.cmd('colorscheme dontuse')
 ```
 
